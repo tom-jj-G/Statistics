@@ -96,3 +96,5 @@ plt <- ggplot(mtcars,aes(x=hp,y=qsec)) #import dataset into ggplot2
 plt + geom_point() + geom_line(aes(y=yvals), color = "red") #plot scatter
 lm(qsec ~ mpg + disp + drat + wt + hp,data=mtcars) #generate multiple linear regression model
 summary(lm(qsec ~ mpg + disp + drat + wt + hp,data=mtcars))
+tbl <- table(mpg$class,mpg$year) #generate contingency table
+chisq.test(tbl) #compare categorical distributions
