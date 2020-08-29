@@ -40,9 +40,17 @@ Yet, although the relationship between both variables is statistically significa
 These variables are not within our dataset and may still need to be collected or observed.
 
 
+
 2. Suspension Coil Summary
 
-coil_summary tabel:
+coil_summary:
+
+  | Manufacturing_Lot | Mean_PSI | Median_PSI | Variance_PSI | Std_dev_PSI
+--------------------------------------------------------------------------  
+1 |Lot1 + Lot2 + Lot3 | 1499.531 | 1499.747   | 76.23459     | 8.731242
+
+
+coil_summary_by_lot table:
 
   | Manufacturing_Lot | Mean_PSI | Median_PSI | Variance_PSI | Std_dev_PSI
 --------------------------------------------------------------------------  
@@ -52,7 +60,16 @@ coil_summary tabel:
 --------------------------------------------------------------------------
 3 |Lot3               | 1499.004 | 1497.981   | 220.010563   | 14.83275
 
-Based on the dataset provided and the summary recap above, all lots have a mean PSI value of about 1,500 PSI.
+Based on the dataset provided and the summary recaps above, all lots have a mean PSI value of about 1,500 PSI.
+We could notice than lot 2 and lot 3 have an increasing value of standard deviance, meaning that pounds per square inch values are more spread for coils in these lots.
+
+=> The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per inch.
+	Does the current manufacturing data meet this design specification? Why or why not? 
+In we consider all the lots (cf. coil_summary table), the MechaCar design specification is met as PSI variance is about 76 for lot 1, 2 and 3.
+But, if we dive a little bit more in the dataset (cf. coil_summary_by_lot table), results show that lot 3 does not meet the specification as its PSI variance is 220. Other lots (1 and 2) meet the MechaCar design specification.
 
 
 
+3. Suspension Coil T-Test
+
+As we meed to determine if the suspension coil’s pound-per-inch results are statistically different from the mean population results of 1,500 pounds per inch, we are going to use a One-Sample t-Test.
