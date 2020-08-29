@@ -73,3 +73,28 @@ But, if we dive a little bit more in the dataset (cf. coil_summary_by_lot table)
 3. Suspension Coil T-Test
 
 As we meed to determine if the suspension coil’s pound-per-inch results are statistically different from the mean population results of 1,500 pounds per inch, we are going to use a One-Sample t-Test.
+
+> t.test(coil_table$PSI, mu=1500) # One-Sample t-Test to compare dataset versus population mean of 1,500 PSI
+
+	One Sample t-test
+
+data:  coil_table$PSI
+t = -0.65784, df = 149, p-value = 0.5117
+alternative hypothesis: true mean is not equal to 1500
+95 percent confidence interval:
+ 1498.122 1500.940
+sample estimates:
+mean of x 
+ 1499.531 
+ 
+Null hypothesis (H0): there is no statistical difference between the dataset mean and its presumed population mean
+Alternative hypothesis (H1): there is a statistical difference between the dataset mean and its presumed population mean
+Significance level chose: the common 0.05 percent
+
+=> As p-value (0.5117) is greater than our significance level (0.05), we do not have sufficient evidence to reject the null hypothesis, and we would state that there is no statistical difference between the dataset mean and its presumed population mean. 
+
+
+
+4.  Personnal Design Study
+
+

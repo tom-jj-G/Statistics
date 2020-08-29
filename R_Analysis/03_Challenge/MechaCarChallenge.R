@@ -11,4 +11,4 @@ coil_summary_by_lot <- coil_table %>% group_by(Manufacturing_Lot) %>% summarize(
 
 
 # 3. Suspension Coil T-Test
-var(coil_table$PSI)
+t.test(coil_table$PSI, mu=1500) # One-Sample t-Test to compare dataset versus population mean of 1,500 PSI
