@@ -97,4 +97,19 @@ Significance level chose: the common 0.05 percent
 
 4.  Personnal Design Study
 
+=> Metrics of interest to a consumer:
+	- Cost: as any good, cost is a important factor in people decision when bying a car
+	- Consumption: as gas price that might keep rising, mpg is a key data when picking a car
+	- Number of seats: as needs might vary, it could a factor too for family
+	- Truck capacity: might help if important storage is a plus (for travelling or recreation purposes)
+	- Safety rating: a "must-perform" factor 
+	- Number of color available: a good indicator of customizations possible
+	- Number of warranties and incentives included: how many various offers are made by manufacturers (2 year warrantly included , gas credits, etc.)
+	
+	
+=> What question to ask, the null and alternative hypothesis and what statistical test thaht could be used to test this hypothesis?
+What we should ask ourself is, for each  does our prototype has the same characteristic as other comparable vehicles?
+Our null hypothesis (H0) would be: 
 
+
+one-way ANOVA 
