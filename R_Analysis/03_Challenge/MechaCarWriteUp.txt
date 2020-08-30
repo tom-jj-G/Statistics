@@ -89,7 +89,7 @@ mean of x
  
 Null hypothesis (H0): there is no statistical difference between the dataset mean and its presumed population mean
 Alternative hypothesis (H1): there is a statistical difference between the dataset mean and its presumed population mean
-Significance level chose: the common 0.05 percent
+Significance level chosen: the common 0.05 percent
 
 => As p-value (0.5117) is greater than our significance level (0.05), we do not have sufficient evidence to reject the null hypothesis, and we would state that there is no statistical difference between the dataset mean and its presumed population mean. 
 
@@ -100,16 +100,32 @@ Significance level chose: the common 0.05 percent
 => Metrics of interest to a consumer:
 	- Cost: as any good, cost is a important factor in people decision when bying a car
 	- Consumption: as gas price that might keep rising, mpg is a key data when picking a car
-	- Number of seats: as needs might vary, it could a factor too for family
-	- Truck capacity: might help if important storage is a plus (for travelling or recreation purposes)
+	- Seating capacity: as needs might vary, it could a factor too for family
+	- Cargo capacity: might help if important storage is a plus (for travelling or recreation purposes)
 	- Safety rating: a "must-perform" factor 
-	- Number of color available: a good indicator of customizations possible
+	- Number of colors available: a good indicator of customizations possible
 	- Number of warranties and incentives included: how many various offers are made by manufacturers (2 year warrantly included , gas credits, etc.)
 	
 	
-=> What question to ask, the null and alternative hypothesis and what statistical test thaht could be used to test this hypothesis?
-What we should ask ourself is, for each  does our prototype has the same characteristic as other comparable vehicles?
+=> What question to ask, the null and alternative hypothesis and what statistical test that could be used to test this hypothesis?
+What we should ask ourself is, for each metric, does our prototype has the same characteristic as other comparable vehicles?
 Our null hypothesis (H0) would be: 
+Our alternative hypothesis (H1) would be: 
+Significance level chosen: the common 0.05 percent
+Test to use: One Sample t-test for each metric
 
 
-one-way ANOVA 
+=> What data should be collected?
+Chart of data below:
+
+                |Cost($)| Consumption(mpg)| Seating capacity | Cargo capacity(cu. ft) | Safety rating (1 to 5)| Number of colors available | Number of warranties and incentives included
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MechaCar 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Other model 1
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Other model 2
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Other model 3
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+...
