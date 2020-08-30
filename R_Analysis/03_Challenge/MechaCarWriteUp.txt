@@ -109,13 +109,17 @@ Significance level chosen: the common 0.05 percent
 	
 => What question to ask, the null and alternative hypothesis and what statistical test that could be used to test this hypothesis?
 What we should ask ourself is, for each metric, does our prototype has the same characteristic as other comparable vehicles?
-Our null hypothesis (H0) would be: 
-Our alternative hypothesis (H1) would be: 
+Our null hypothesis (H0) would be: there is no statistical difference between the characteristice of our prototype mean and its presumed competitors
+Our alternative hypothesis (H1) would be: there is a statistical difference between the characteristice of our prototype mean and its presumed competitors
 Significance level chosen: the common 0.05 percent
-Test to use: One Sample t-test for each metric
+Test to use: One Sample t-test for each metric as we are trying to answer wether ot not there is a statistical difference between the mean of the sample distribution (our prototype) and the mean of the population distribution (its competitors).
 
 
 => What data should be collected?
+
+For our prototype and its competitors, we should complete the data chart below in order to perform our analysis.
+If there are different versions for each model, maybe try to summarize the data so we would have a unique set of data (one row) for each model.
+
 Chart of data below:
 
                 |Cost($)| Consumption(mpg)| Seating capacity | Cargo capacity(cu. ft) | Safety rating (1 to 5)| Number of colors available | Number of warranties and incentives included
