@@ -27,7 +27,7 @@ Multiple R-squared:  0.7149,	Adjusted R-squared:  0.6825
 F-statistic: 22.07 on 5 and 44 DF,  p-value: 5.35e-11
 
 => Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-According to the results above and the dataset provided, vehicule lenght and ground clearance (as well as intercept) are statistically unlikely to provide random amounts of variance to the mpg values (with an assumed significance level of 0.05%).
+According to the results above and the dataset provided, vehicle length and ground clearance (as well as intercept) are statistically unlikely to provide random amounts of variance to the mpg values (with an assumed significance level of 0.05%).
 
 => Is the slope of the linear model considered to be zero? Why or why not?
 The p-value of our linear regression analysis is 5.35 x 10-11, which is way much smaller than an assumed significance level of 0.05% for instance.
@@ -36,7 +36,7 @@ Therefore, we can state that there is sufficient evidence to reject a null hypot
 => Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 According to the summary output, the r-squared value has a value of 0.7149 and a significant p-value (<<0.05).
 Thus, our linear model is quite effective.
-Yet, although the relationship between both variables is statistically significant, this linear model is not ideal as our intercept value is is statistically significant, it means there are other variables and factors that contribute to the variation in mpg value that have not been included in our model.
+Yet, although the relationship between both variables is statistically significant, this linear model is not ideal as our intercept value is statistically significant, it means there are other variables and factors that contribute to the variation in mpg value that have not been included in our model.
 These variables are not within our dataset and may still need to be collected or observed.
 
 
@@ -72,7 +72,7 @@ But, if we dive a little bit more in the dataset (cf. coil_summary_by_lot table)
 
 3. Suspension Coil T-Test
 
-As we meed to determine if the suspension coil’s pound-per-inch results are statistically different from the mean population results of 1,500 pounds per inch, we are going to use a One-Sample t-Test.
+As we need to determine if the suspension coil’s pound-per-inch results are statistically different from the mean population results of 1,500 pounds per inch, we are going to use a One-Sample t-Test.
 
 > t.test(coil_table$PSI, mu=1500) # One-Sample t-Test to compare dataset versus population mean of 1,500 PSI
 
@@ -95,7 +95,7 @@ Significance level chosen: the common 0.05 percent
 
 
 
-4.  Personnal Design Study
+4.  Personal Design Study
 
 => Metrics of interest to a consumer:
 	- Cost: as any good, cost is a important factor in people decision when bying a car
@@ -104,15 +104,15 @@ Significance level chosen: the common 0.05 percent
 	- Cargo capacity: might help if important storage is a plus (for travelling or recreation purposes)
 	- Safety rating: a "must-perform" factor 
 	- Number of colors available: a good indicator of customizations possible
-	- Number of warranties and incentives included: how many various offers are made by manufacturers (2 year warrantly included , gas credits, etc.)
+	- Number of warranties and incentives included: how many various offers are made by manufacturers (2 year warranty included, gas credits, etc.)
 	
 	
 => What question to ask, the null and alternative hypothesis and what statistical test that could be used to test this hypothesis?
-What we should ask ourself is, for each metric, does our prototype has the same characteristic as other comparable vehicles?
-Our null hypothesis (H0) would be: there is no statistical difference between the characteristice of our prototype mean and its presumed competitors
-Our alternative hypothesis (H1) would be: there is a statistical difference between the characteristice of our prototype mean and its presumed competitors
+What we should ask ourselves is, for each metric, does our prototype has the same characteristic as other comparable vehicles?
+Our null hypothesis (H0) would be: there is no statistical difference between the characteristic of our prototype mean and its presumed competitors
+Our alternative hypothesis (H1) would be: there is a statistical difference between the characteristic of our prototype mean and its presumed competitors
 Significance level chosen: the common 0.05 percent
-Test to use: One Sample t-test for each metric as we are trying to answer wether ot not there is a statistical difference between the mean of the sample distribution (our prototype) and the mean of the population distribution (its competitors).
+Test to use: One Sample t-test for each metric as we are trying to answer whether or not there is a statistical difference between the mean of the sample distribution (our prototype) and the mean of the population distribution (its competitors).
 
 
 => What data should be collected?
