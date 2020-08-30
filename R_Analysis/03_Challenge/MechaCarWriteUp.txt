@@ -65,7 +65,7 @@ We could notice than lot 2 and lot 3 have an increasing value of standard devian
 
 => The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per inch.
 	Does the current manufacturing data meet this design specification? Why or why not? 
-In we consider all the lots (cf. coil_summary table), the MechaCar design specification is met as PSI variance is about 76 for lot 1, 2 and 3.
+If we consider all the lots (cf. coil_summary table), the MechaCar design specification is met as PSI variance is about 76 for lot 1, lot 2 and lot 3.
 But, if we dive a little bit more in the dataset (cf. coil_summary_by_lot table), results show that lot 3 does not meet the specification as its PSI variance is 220. Other lots (1 and 2) meet the MechaCar design specification.
 
 
@@ -98,9 +98,9 @@ Significance level chosen: the common 0.05 percent
 4.  Personal Design Study
 
 => Metrics of interest to a consumer:
-	- Cost: as any good, cost is a important factor in people decision when bying a car
+	- Cost: as any good, cost is an important factor in people decision when bying a car
 	- Consumption: as gas price that might keep rising, mpg is a key data when picking a car
-	- Seating capacity: as needs might vary, it could a factor too for family
+	- Seating capacity: as needs might vary, it could be a factor too for family
 	- Cargo capacity: might help if important storage is a plus (for travelling or recreation purposes)
 	- Safety rating: a "must-perform" factor 
 	- Number of colors available: a good indicator of customizations possible
