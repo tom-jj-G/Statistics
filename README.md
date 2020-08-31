@@ -16,5 +16,5 @@ The goals of this challenge are to complete the following:
 
 ## Results
 
-- Statistical analysis: cf. MechaCarWriteUp.txt file under [R_Analysis\03_Challenge](R_Analysis/03_Challenge/) folder
-- R code: cf. MechaCarChallenge.R file under [R_Analysis\03_Challenge](R_Analysis/03_Challenge/) folder
+- Statistical analysis: cf. *MechaCarWriteUp.txt* file under [R_Analysis\03_Challenge](R_Analysis/03_Challenge/) folder
+- R code: cf. *MechaCarChallenge.R* file under [R_Analysis\03_Challenge](R_Analysis/03_Challenge/) folder
