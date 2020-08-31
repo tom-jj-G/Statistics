@@ -12,9 +12,9 @@ The goals of this challenge are to complete the following:
 ## Technologies
 
 - R (version 4.0.2)
-- RStudio (Version 1.3.1073)
+- RStudio (version 1.3.1073)
 
 ## Results
 
-- Statistical analysis: cf. MechaCarWriteUp.txt file under [R_Analysis\03_Challenge](R_Analysis\03_Challenge) folder
-- R code: cf. MechaCarChallenge.R file under [R_Analysis\03_Challenge](R_Analysis\03_Challenge) folder
+- Statistical analysis: cf. MechaCarWriteUp.txt file under [R_Analysis\03_Challenge](R_Analysis/03_Challenge/) folder
+- R code: cf. MechaCarChallenge.R file under [R_Analysis\03_Challenge](R_Analysis/03_Challenge/) folder
